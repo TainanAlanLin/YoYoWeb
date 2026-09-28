@@ -1,0 +1,16 @@
+﻿:root { color-scheme: light; font-family: "Microsoft JhengHei", sans-serif; color: #4b3b35; background: #fbf6ef; }
+* { box-sizing: border-box; }
+body { margin: 0; display: grid; grid-template-columns: 220px 1fr; min-height: 100vh; }
+.sidebar { padding: 36px 28px; background: #ead8c4; }
+.site-name { margin-bottom: 28px; font-size: 1.25rem; font-weight: 700; }
+nav { display: grid; gap: 12px; }
+nav a { color: #725447; text-decoration: none; }
+main { width: min(760px, 100%); padding: 48px; }
+h1 { color: #7a5546; }
+.memory-list { padding: 0; list-style: none; }
+.memory-list li { padding: 14px 0; border-bottom: 1px solid #dfcdbd; }
+.memory-list time { display: inline-block; width: 115px; color: #8b756b; }
+a { color: #9a604d; }
+.meta { color: #927b70; }
+.article-body { margin-top: 28px; line-height: 1.9; }
+@media (max-width: 650px) { body { display: block; } .sidebar { padding: 22px; } nav { display: flex; gap: 20px; } main { padding: 28px 22px; } }
